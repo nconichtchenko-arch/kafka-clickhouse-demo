@@ -49,7 +49,7 @@ echo '{"message": "Hello from Kafka to ClickHouse!"}' | docker exec -i kafka kaf
 clickhouse-client --query "SELECT * FROM test_data;"
 ```
 
-🔗 Связанные проекты
-marketplace-dwh-analytics — основной DWH-проект.
+## 🔗 Связанные проекты
 
-greenplum-dwh-demo — демо MPP-СУБД Greenplum.
+- [marketplace-dwh-analytics](https://github.com/nconichtchenko-arch/marketplace-dwh-analytics) — основной DWH-проект.
+- [greenplum-dwh-demo](https://github.com/nconichtchenko-arch/greenplum-dwh-demo) — демо MPP-СУБД Greenplum.
