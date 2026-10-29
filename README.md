@@ -21,9 +21,11 @@ Pet-проект по настройке потоковой передачи д�
 ## 📸 Скриншоты
 
 ![Настройка ClickHouse](clickhouse_setup.png)
+
 *Создание таблиц с движком Kafka и Materialized View.*
 
 ![Результат в ClickHouse](clickhouse_result.png)
+
 *Данные, полученные из Kafka, в таблице test_data.*
 
 ## 📂 Как запустить
